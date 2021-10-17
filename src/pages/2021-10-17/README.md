@@ -100,3 +100,50 @@ alt: alternative: 二选一
 option: option: 选项
 
 ---
+
+useLayoutEffect:
+
+useLayoutEffect(() => {}, []); -> 哥一般是用来替换 useEffect(() => {}, []);
+
+---
+
+effect 第二个参数的数组参数:
+
+useEffect(fn, dependencies);
+useEffect(执行函数, 依赖数组);
+
+useEffect(fn, [a, b, c, d]);
+
+a, b, c, d 参数的作用: 
+由于某个值的更改，触发fn的执行，fn 执行的时候，会获取依赖数组的值。
+
+a, b, c, d 参数的要求: 
+1. 一般要是普通类型的值，不是对象类型的值 
+2. 一般来讲，其他类型，都是改变自身的属性的值，其本身不会变, 比如对象，useRef(null), 等等
+
+---
+
+useEffect, useCallback 使用注意
+
+1. 执行函数避免无限递归
+比如依赖项中有 someVar, 而执行函数中，写有 setSomeVar(sth) 的语句
+- 可以给 setSomeVar(sth) 加判断条件
+- 或者对 someVar 做判断
+
+2. 漏放了某个依赖项
+- 注意你使用的变量要在依赖项中有
+- 很多情况，你漏放了某个依赖，很可能会导致: 该依赖项的值不变，但是你认为它变了，然后引起了不必要产生的bug, 你还调试不了
+
+3. 依赖项过多
+如果依赖项过多，建议就先不要使用useEffect, useCallback ...
+
+4. 执行函数尽量简短
+useCallback, useEffect 的执行函数要尽量简短，行数应尽量控制在 50 行内
+
+5. useEffect 与 类组件生命周期的效果对比
+
+useEffect(fn)  --- componentDidMount + componentDidUpdate
+useEffect(fn, deps) --- componentDidUpdate
+useEffect(() => someFn, []) -> someFn --- componentWillUnmount
+
+---
