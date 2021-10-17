@@ -1,25 +1,59 @@
-import { useMemo, useEffect, useState, useCallback } from 'react';
-import { Button } from 'antd';
+import { useRef, useMemo, useEffect, useState, useCallback } from 'react';
+import { Button, Select } from 'antd';
+import { HOCInput, HOCInputRef } from './forward-ref';
+import _ from 'lodash';
+
+type InputMode = '' | 'throttle' | 'debounce';
 
 export default function aa() {
   const [buttonVisible, setButtonVisible] = useState(false);
-  const list = ['时尚', '事实上', '的上档次', '事实上'];
+  const [inputVal, setInputVal] = useState<string>('');
+  const inputRef = useRef<HOCInputRef>(null);
+
   const btnclick = () => {
     setButtonVisible((visible) => !visible);
   };
 
-  useEffect(() => {
-    console.log(1);
-
-    list.map((item) => {
-      <li>{item}</li>;
-    });
+  const onChangeInputVal = useCallback((value: string) => {
+    console.log('实际: input的输入: ', value);
+    setInputVal(value);
   }, []);
 
+  const onClearHOCInput = () => {
+    if (inputRef.current) {
+      inputRef.current.clear();
+    }
+  };
+
+  const [mode, setMode] = useState<InputMode>('throttle');
+  const onChangeInputValCb = useMemo(() => {
+    console.log('onChangeInputValCb - mode', mode);
+    return !mode
+      ? onChangeInputVal
+      : 'throttle'
+      ? _.throttle(onChangeInputVal, 5000)
+      : _.debounce(onChangeInputVal, 5000);
+  }, [mode, onChangeInputVal]);
+
   return (
-    <div>
+    <div style={{ padding: '24px 0 0 24px' }}>
       <Button onClick={btnclick}>按钮</Button>
       {!buttonVisible ? null : <DestroyedButton />}
+      <div style={{ height: 12 }}></div>
+      <button onClick={onClearHOCInput}>清除HOCInput的值</button>
+      <div style={{ height: 12 }}></div>
+      <Select
+        value={mode}
+        onChange={(value) => {
+          setMode(value);
+        }}
+      >
+        <Select.Option value="">无模式</Select.Option>
+        <Select.Option value="throttle">节流</Select.Option>
+        <Select.Option value="debounce">防抖</Select.Option>
+      </Select>
+      <div style={{ height: 12 }}></div>
+      <HOCInput ref={inputRef} value={inputVal} onChange={onChangeInputValCb} />
     </div>
   );
 }
