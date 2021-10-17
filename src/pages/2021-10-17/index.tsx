@@ -1,30 +1,35 @@
-import { useMemo, useEffect, useState, useCallback } from 'react';
+import { useRef, useMemo, useEffect, useState, useCallback } from 'react';
 import { Button } from 'antd';
+import { HOCInput, HOCInputRef } from './forward-ref';
 
 export default function aa() {
   const [buttonVisible, setButtonVisible] = useState(false);
-  const list = ['时尚', '事实上', '的上档次', '事实上'];
+  const [inputVal, setInputVal] = useState<string>('');
+  const inputRef = useRef<HOCInputRef>(null);
+
   const btnclick = () => {
     setButtonVisible((visible) => !visible);
   };
 
-  const showList = useEffect(() => {
-    console.log(1);
+  const onChangeInputVal = (value: string) => {
+    setInputVal(value);
+  };
 
-    list.map((item) => {
-      <li>{item}</li>;
-    });
-  }, []);
+  const onClearHOCInput = () => {
+    if (inputRef.current) {
+      inputRef.current.clear();
+    }
+  };
 
-  useMemo(() => {
-    showList;
-  }, []);
+  console.log('HOCInput的值: ', inputVal);
 
   return (
     <div>
       <Button onClick={btnclick}>按钮</Button>
       {!buttonVisible ? null : <DestroyedButton />}
-      <ul> {showList}</ul>
+      <div style={{ height: 12 }}></div>
+      <button onClick={onClearHOCInput}>清除HOCInput的值</button>
+      <HOCInput ref={inputRef} value={inputVal} onChange={onChangeInputVal} />
     </div>
   );
 }
