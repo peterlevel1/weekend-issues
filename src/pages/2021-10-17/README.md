@@ -147,3 +147,9 @@ useEffect(fn, deps) --- componentDidUpdate
 useEffect(() => someFn, []) -> someFn --- componentWillUnmount
 
 ---
+
+useContext 的遗留问题
+
+https://zh-hans.reactjs.org/docs/hooks-reference.html#usecontext
+
+---
