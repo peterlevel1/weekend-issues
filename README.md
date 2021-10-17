@@ -1,2 +1,15 @@
-# weekend-issues
-some issues on the weekend
+# umi project
+
+## Getting Started
+
+Install dependencies,
+
+```bash
+$ yarn
+```
+
+Start the dev server,
+
+```bash
+$ yarn start
+```
