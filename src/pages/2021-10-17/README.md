@@ -50,3 +50,53 @@ forwardRef, useImperialHandle
 - ref 就是和类组件引用时用的ref, 是一个类型的ref
 - ref 的好处是无论React内部状态怎么刷新，ref的值在内部处理时都可以保持不变
 - React 内部源码中看到了对ref做了特定处理
+
+---
+
+节流/防抖
+https://blog.csdn.net/weixin_41615439/article/details/113880510
+
+节流: 在规定时间内只执行一次, 只响应该时间段内的第一次的输入
+防抖: 在规定时间内只执行一次, 只响应该时间段内的最后一次的输入
+
+测试 - 节流: 在三秒内，输入asd
+输出: a
+
+测试 - 防抖: 在三秒内，输入asd
+输出: d
+
+---
+
+老妹儿的意思是请求的节流
+
+其实 在哥个人认为，二者没有区别
+
+请求的时候，对吧，大哥一般是，(防抖/节流) + 最后一次检查输入
+所以不管是防抖还是节流，都需要比对输入的参数
+
+```javascript:
+
+const [ params, setParams ] = useState(params);
+
+const request = (params) => {
+  return requestCb(params);
+}
+
+const requestCb = throttle(request, 1000);
+
+  const onRequest = (inputParam) => {
+  if (inputParams === parmas) {
+    return;
+  }
+
+  return requestCb(params);
+  };
+
+```
+
+---
+
+alt: alternative: 二选一
+option: option: 选项
+
+---

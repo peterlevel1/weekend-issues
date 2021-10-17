@@ -1,6 +1,9 @@
 import { useRef, useMemo, useEffect, useState, useCallback } from 'react';
-import { Button } from 'antd';
+import { Button, Select } from 'antd';
 import { HOCInput, HOCInputRef } from './forward-ref';
+import _ from 'lodash';
+
+type InputMode = '' | 'throttle' | 'debounce';
 
 export default function aa() {
   const [buttonVisible, setButtonVisible] = useState(false);
@@ -11,9 +14,10 @@ export default function aa() {
     setButtonVisible((visible) => !visible);
   };
 
-  const onChangeInputVal = (value: string) => {
+  const onChangeInputVal = useCallback((value: string) => {
+    console.log('实际: input的输入: ', value);
     setInputVal(value);
-  };
+  }, []);
 
   const onClearHOCInput = () => {
     if (inputRef.current) {
@@ -21,15 +25,35 @@ export default function aa() {
     }
   };
 
-  console.log('HOCInput的值: ', inputVal);
+  const [mode, setMode] = useState<InputMode>('throttle');
+  const onChangeInputValCb = useMemo(() => {
+    console.log('onChangeInputValCb - mode', mode);
+    return !mode
+      ? onChangeInputVal
+      : 'throttle'
+      ? _.throttle(onChangeInputVal, 5000)
+      : _.debounce(onChangeInputVal, 5000);
+  }, [mode, onChangeInputVal]);
 
   return (
-    <div>
+    <div style={{ padding: '24px 0 0 24px' }}>
       <Button onClick={btnclick}>按钮</Button>
       {!buttonVisible ? null : <DestroyedButton />}
       <div style={{ height: 12 }}></div>
       <button onClick={onClearHOCInput}>清除HOCInput的值</button>
-      <HOCInput ref={inputRef} value={inputVal} onChange={onChangeInputVal} />
+      <div style={{ height: 12 }}></div>
+      <Select
+        value={mode}
+        onChange={(value) => {
+          setMode(value);
+        }}
+      >
+        <Select.Option value="">无模式</Select.Option>
+        <Select.Option value="throttle">节流</Select.Option>
+        <Select.Option value="debounce">防抖</Select.Option>
+      </Select>
+      <div style={{ height: 12 }}></div>
+      <HOCInput ref={inputRef} value={inputVal} onChange={onChangeInputValCb} />
     </div>
   );
 }
