@@ -8,7 +8,7 @@ export default function aa() {
     setButtonVisible((visible) => !visible);
   };
 
-  useEffect(() => {
+  const showList = useEffect(() => {
     console.log(1);
 
     list.map((item) => {
@@ -16,10 +16,15 @@ export default function aa() {
     });
   }, []);
 
+  useMemo(() => {
+    showList;
+  }, []);
+
   return (
     <div>
       <Button onClick={btnclick}>按钮</Button>
       {!buttonVisible ? null : <DestroyedButton />}
+      <ul> {showList}</ul>
     </div>
   );
 }
