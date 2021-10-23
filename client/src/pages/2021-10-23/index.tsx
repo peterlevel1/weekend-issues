@@ -60,6 +60,20 @@ export default function Uploads(props: any) {
         <Upload
           accept='.mp4,.png,.jpg,.jpeg,.bpm'
           action={`${HTTP_PREFIX}/api/upload`}
+          // customRequest={(options) => {
+          //   const { onProgress, onError, onSuccess } = options;
+          //   // ----------------------------
+          //   // onProgress(1 ~ 100 之间的值)
+          //   // ----------------------------
+          //   // onSuccess({
+          //   //   success: true,
+          //   //   data: {
+          //   //     pathname: '/xxx/yyy/zzz/png'
+          //   //   }
+          //   // });
+          //   // ----------------------------
+          //   // onError('错误的原因');
+          // }}
           listType="picture-card"
           onChange={onChange}
           fileList={fileList}
