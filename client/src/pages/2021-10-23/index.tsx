@@ -10,13 +10,12 @@ const TYPES_VIDEO = ['mp4'];
 const TYPES_IMAGE = ['png', 'jpg', 'jpeg', 'bpm'];
 
 async function getBase64(file: any) {
-  const image = new Image();
-  image.src = file?.url;
-  image.crossOrigin = 'anonymous';
-  image.onload = (ev) => {
-    image.onload = null;
-
-  }
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = () => resolve(reader.result);
+    reader.onerror = error => reject(error);
+  });
 }
 
 export default function Uploads(props: any) {
@@ -36,6 +35,26 @@ export default function Uploads(props: any) {
     }
   ]);
 
+  // image preview
+  // ---------------------
+
+  const [previewImage, setPreviewImage] = useState<string>('');
+  const [previewVisible, setPreviewVisible] = useState<boolean>(false);
+  const [previewTitle, setPreviewTitle] = useState<string>('');
+
+  const handlePreviewCancel = () => setPreviewVisible(false);
+
+  const handlePreview = async (file: any) => {
+    console.log('handlePreview');
+    if (!file.url && !file.preview) {
+      file.preview = await getBase64(file.originFileObj);
+    }
+
+    setPreviewImage(file.url || file.preview),
+    setPreviewTitle(file.name || file.url.substring(file.url.lastIndexOf('/') + 1));
+    setPreviewVisible(true);
+  };
+
   const onChange = async ({ file, fileList: newFileList }: any) => {
     setFileList(newFileList);
 
@@ -49,34 +68,29 @@ export default function Uploads(props: any) {
     }
   };
 
-  // const onPreview = async file => {
-  //   let src = file.url;
-  //   if (!src) {
-  //     src = await new Promise(resolve => {
-  //       const reader = new FileReader();
-  //       reader.readAsDataURL(file.originFileObj);
-  //       reader.onload = () => resolve(reader.result);
-  //     });
-  //   }
-  //   const image = new Image();
-  //   image.src = src;
-  //   const imgWindow = window.open(src);
-  //   imgWindow?.document.write(image.outerHTML);
-  // };
-
   return (
     <div style={{ padding: 24 }}>
-      <Upload
-        action={`${HTTP_PREFIX}/api/upload`}
-        listType="picture-card"
-        onChange={onChange}
-        fileList={fileList}
-        name="File"
-        itemRender={itemRender}
-        // onPreview={onPreview}
-      >
-        上传图片
-      </Upload>
+      <>
+        <Upload
+          action={`${HTTP_PREFIX}/api/upload`}
+          listType="picture-card"
+          onChange={onChange}
+          fileList={fileList}
+          name="File"
+          itemRender={itemRender}
+          onPreview={handlePreview}
+        >
+          上传图片
+        </Upload>
+        <Modal
+          visible={previewVisible}
+          title={previewTitle}
+          footer={null}
+          onCancel={handlePreviewCancel}
+          >
+          <img alt="example" style={{ width: '100%' }} src={previewImage} />
+        </Modal>
+      </>
     </div>
   );
 }
@@ -96,9 +110,10 @@ function itemRender(originNode: any, file: any, fileList: any[], actions: any) {
 }
 
 function renderVideo(file: any, actions: any): any {
-  const [ visible, setVisible ] = useState<boolean>(false);
+  const [visible, setVisible] = useState<boolean>(false);
   const openMask = () => setVisible(true);
   const closeMask = () => setVisible(false);
+
 
   const [ iconDelVisible, setIconDelVisible ] = useState<boolean>(false);
   const showIconDel = () => setIconDelVisible(true);
