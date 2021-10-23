@@ -147,3 +147,30 @@ useEffect(fn, deps) --- componentDidUpdate
 useEffect(() => someFn, []) -> someFn --- componentWillUnmount
 
 ---
+
+useContext 的遗留问题
+
+https://zh-hans.reactjs.org/docs/hooks-reference.html#usecontext
+
+---
+
+VSCode 快捷键
+
+(最左边的)资源管理器: cmd+shift+e
+搜索： cmd+shift+f
+管理： shift+control+g
+选文件： cmd+0
+进入文件： cmd+1/空格键
+文件切换： cmd+option+左右键
+行选中：cmd+shift+左右键
+页面最上/下：cmd+上下键
+关闭页面：cmd+w
+选择单个单词: cmd+d
+选择页面全部同一个单词: option+a
+选择当前鼠标位置的扩展选择区域: option+s
+单词左右切换: option+左右键
+移动当前行向上/向下: option+向上/向下
+选择当前行: cmd+左/右 + cmd+shift+左/右
+解锁选择的区域: ESC/左健/右健
+竖排选择焦点 - 多个: cmd+option+上/下 + 选择单个单词 option+shit+右/选择整行 cmd+shit+右 
+竖排选择焦点 - 1个: shift + 上/下
