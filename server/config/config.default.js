@@ -16,22 +16,26 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1634957884622_4622';
 
   // add your middleware config here
-  config.middleware = [ 'cor' ];
+  config.middleware = [ 'crossOrigin' ];
 
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
-
     security: {
       csrf: {
         ignore: () => true,
       },
-      cor: {
-        list: [
-          'http://172.20.10.4:8000'
-        ],
-      },
-    }
+    },
+
+    crossOrigin: {
+      ipList: [
+        '172.20.10.3'
+      ],
+    },
+
+    // multipart: {
+    //   mode: 'file'
+    // }
   };
 
   return {
