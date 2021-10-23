@@ -19,21 +19,7 @@ async function getBase64(file: any) {
 }
 
 export default function Uploads(props: any) {
-  const [ fileList, setFileList ] = useState<any>(() => [
-    {
-      uid: uuidv4(),
-      status: 'done',
-      name: '1634972484509587.mp4',
-      url: HTTP_PREFIX + '/public/tmp/6a2fe1d8-9a03-4528-9544-cc865dfb3d49-1634972484509587.mp4',
-      percent: 100,
-      response: {
-        success: true,
-        data: {
-          pathname: '/public/tmp/6a2fe1d8-9a03-4528-9544-cc865dfb3d49-1634972484509587.mp4',
-        }
-      }
-    }
-  ]);
+  const [fileList, setFileList] = useState<any>([]);
 
   // image preview
   // ---------------------
@@ -69,14 +55,15 @@ export default function Uploads(props: any) {
   };
 
   return (
-    <div style={{ padding: 24 }}>
+    <div className='upload-container'>
       <>
         <Upload
+          accept='.mp4,.png,.jpg,.jpeg,.bpm'
           action={`${HTTP_PREFIX}/api/upload`}
           listType="picture-card"
           onChange={onChange}
           fileList={fileList}
-          name="File"
+          name="file"
           itemRender={itemRender}
           onPreview={handlePreview}
         >
@@ -120,7 +107,6 @@ function renderVideo(file: any, actions: any): any {
   const hideIconDel = () => setIconDelVisible(false);
 
   const src = !file?.response ? '' : `${HTTP_PREFIX}${file?.response?.data?.pathname}`;
-  console.log('file', file);
 
   const clsIconDel = classNames('video-element-icon-del', {
     active: iconDelVisible
