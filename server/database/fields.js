@@ -59,7 +59,6 @@ const fieldController = {
       const name = names[i];
       const value = fields[name];
       const field = fieldController.getField(name);
-      
     }
   }
 };
