@@ -19,7 +19,7 @@ import moment from 'moment';
 import  Picture  from './picture'
 import  Video  from './video'
 import { normalizeFile } from './xx-upload';
-// import styles from './index.less';
+import './index.less';
 
 export default function uplaoding() {
   const [form] = Form.useForm();
@@ -37,6 +37,14 @@ export default function uplaoding() {
   const [jump, setJump] = useState<string>('block');
   // const [imgList, setImgList] = useState<any>([]);
   console.log(currState);
+  // update | detail
+  const [opType, setOpType] = useState<string>('detail');
+
+  const [iUpdate, setIUpdate] = useState(0);
+  const update = () => {
+    setIUpdate((n) => (n + 1));
+  }
+  const [detail, setDetail] = useState<any>({});
 
 
   // const [imgList, setImgList] = useState<any>(() => [
@@ -59,6 +67,7 @@ export default function uplaoding() {
   const bohuibtn = () => {
     setModalVisible(true);
     setJump('bendan');
+    setOpType('detail');
   };
 
   const handleCancel = () => {
@@ -176,6 +185,11 @@ export default function uplaoding() {
     setStepState([{ title: `${n}   提交了验收材料`, date: a, value: '' }, { title: '等待技术同学批复验收结论', date: '', value: '' }]);
 
     message.success('提交成功！等待技术同学批复验收结论');
+
+    // ----
+
+    setDetail(value);
+    setOpType('detail');
   };
 
   useEffect(() => {
@@ -195,11 +209,16 @@ export default function uplaoding() {
      // 2. 设置表单数据
      // resForm.result: 就是你当时传给后段的数据
      form.setFieldsValue(resForm.result);
+
+     console.log('form', form);
+    //  window._form = form;
+
+      setDetail(resForm.result);
     })();
   }, []);
 
   return (
-    <>
+    <div className='business-check'>
       <Card
         key="11"
         extra={extra}
@@ -239,7 +258,7 @@ export default function uplaoding() {
             valuePropName="fileList"
             getValueFromEvent={normalizeFile}
           >
-            <Picture form={form} />
+            <Picture form={form} opType={opType} detail={detail} />
           </Form.Item>
 
           <Form.Item
@@ -249,15 +268,15 @@ export default function uplaoding() {
             valuePropName="fileList"
             getValueFromEvent={normalizeFile}
           >
-            <Video form={form} />
+            <Video form={form} opType={opType} detail={detail} />
           </Form.Item>
 
           <Form.Item style={{ marginTop: 50 }} name="conclusion" label="验收结论描述">
-            {!visible || jump === 'none' ? (
-              <p>{'发射场哦武汉的从我家从事的'}</p>
-            ) : (
-              <Input.TextArea showCount maxLength={999} style={{ width: 500 }} />
-            )}
+            {
+              opType === 'detail' ?
+                <p className='conclusion'>{detail?.conclusion}</p> :
+                <Input.TextArea showCount maxLength={999} style={{ width: 500 }} />
+            }
           </Form.Item>
 
           <Divider />
@@ -296,6 +315,6 @@ export default function uplaoding() {
           </p>
         </Form>
       </Modal>
-    </>
+    </div>
   );
 }
