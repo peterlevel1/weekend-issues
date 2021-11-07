@@ -1,0 +1,50 @@
+.divv{
+  width: 104px;
+  height: 104px;
+  margin: 50px;
+  border: 1px solid blueviolet;
+  position: relative;
+
+ .tupian {
+   width: 86px;
+   height: 86px;
+   position: relative;
+   top: 8px;
+   left: 8px;
+   display: inline-block;
+   background-color: burlywood;
+ }
+
+ .tupian:hover::after {
+   position: absolute;
+  //  transform: >0.3;
+  left: 0;
+   width: 86px;
+   height: 86px;
+   background: chartreuse;
+   content: ' ';
+ }
+
+ .anniu{
+  border: 1px solid blueviolet;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+   position: absolute;
+   top: 45%;
+   left: 20%;
+   width: 80px;
+   height: 25px;
+   display: none;
+
+    &.active {
+      display: inline-block;
+    }
+ }
+}
+
+.aaa .btn {
+  color: #FFFFFF;
+  font-size: 16px;
+}
