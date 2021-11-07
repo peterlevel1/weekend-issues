@@ -1,9 +1,6 @@
 module.exports = (options = {}) => {
   return async (ctx, next) => {
-    ctx.logger.info('middleware - cor: options', options);
-    ctx.logger.info('middleware - cor: ip', ctx.request.ip);
-
-    if (options?.ipList?.includes(ctx.request.ip)) {
+    if (options?.ips?.includes(ctx.request.ip)) {
       ctx.set("Access-Control-Allow-Origin", '*');
       ctx.set("Access-Control-Allow-Headers", "content-type,x-requested-with");
       ctx.set("Access-Control-Allow-Methods", "DELETE,PUT,POST,GET,OPTIONS");
@@ -18,5 +15,3 @@ module.exports = (options = {}) => {
     await next();
   }
 }
-
-
