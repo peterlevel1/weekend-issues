@@ -28,7 +28,7 @@ module.exports = appInfo => {
     },
 
     crossOrigin: {
-      ipList: [
+      ips: [
         '172.20.10.3'
       ],
     },
