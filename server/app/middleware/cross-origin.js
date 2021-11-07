@@ -15,5 +15,3 @@ module.exports = (options = {}) => {
     await next();
   }
 }
-
-
