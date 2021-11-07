@@ -1,0 +1,63 @@
+2021-11-07 11:37:02,344 INFO 27961 [egg-sequelize](5ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 13:33:38,806 INFO 29437 [egg-sequelize](6ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 13:34:48,977 INFO 29470 [egg-sequelize](6ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 13:37:16,113 INFO 29579 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 13:37:23,107 INFO 29610 [egg-sequelize](5ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 13:37:24,256 INFO 29617 [egg-sequelize](5ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 13:37:30,096 INFO 29643 [egg-sequelize](5ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 13:37:43,920 INFO 29680 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 13:48:33,999 INFO 30390 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 13:49:12,769 INFO 30441 [egg-sequelize](6ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 14:04:31,994 INFO 30699 [egg-sequelize](6ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 14:07:44,937 INFO 30831 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 14:08:27,958 INFO 30912 [egg-sequelize](6ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 14:08:29,237 INFO 30940 [egg-sequelize](6ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 14:09:24,119 INFO 31040 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 14:11:31,849 INFO 31116 [egg-sequelize](7ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 14:11:45,775 INFO 31162 [egg-sequelize](6ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 14:11:54,237 INFO 31233 [egg-sequelize](6ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 14:11:56,782 INFO 31261 [egg-sequelize](6ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 14:12:33,269 INFO 31391 [egg-sequelize](5ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 15:12:25,989 INFO 31718 [egg-sequelize](7ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 15:12:26,748 INFO 31726 [egg-sequelize](7ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 15:23:30,068 INFO 32033 [egg-sequelize](6ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 15:23:56,945 INFO 32075 [egg-sequelize](6ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 15:25:29,949 INFO 32183 [egg-sequelize](6ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 15:25:31,191 INFO 32206 [egg-sequelize](6ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 15:27:15,102 INFO 32404 [egg-sequelize](7ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 15:27:35,035 INFO 32483 [egg-sequelize](6ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 15:27:36,238 INFO 32490 [egg-sequelize](5ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 16:14:02,318 ERROR 32490 [-/undefined/-/46ms GET /public/tmp/555fb726-0bd8-41ec-b5fd-5c2edd616a8f-1634972484509587.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 32490
+hostname: notes.local
+
+2021-11-07 16:23:12,654 INFO 34142 [egg-sequelize](5ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 16:24:13,411 INFO 34168 [egg-sequelize](6ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 16:36:13,392 INFO 35583 [egg-sequelize](5ms) Executed (default): SELECT 1+1 AS result
+2021-11-07 16:37:47,112 ERROR 35583 [-/undefined/-/59ms GET /public/tmp/ee94e423-2010-4e7d-91d6-5be92b9defc3-1634972484509587.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 35583
+hostname: notes.local
+
+2021-11-07 16:37:55,043 ERROR 35583 [-/undefined/-/1859ms GET /public/tmp/b73f7d20-5776-479e-9ea1-d870d950a6c6-IMG_2794.jpeg] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 35583
+hostname: notes.local
+
+2021-11-07 16:41:47,653 INFO 35923 [egg-sequelize](6ms) Executed (default): SELECT 1+1 AS result

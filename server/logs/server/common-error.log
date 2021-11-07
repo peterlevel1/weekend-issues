@@ -1,0 +1,71 @@
+2021-11-07 11:26:09,323 ERROR 26648 nodejs.SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (/Users/tina/Codes/github/weekend-issues/server/node_modules/_sequelize@6.8.0@sequelize/lib/dialects/mysql/connection-manager.js:116:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async ConnectionManager._connect (/Users/tina/Codes/github/weekend-issues/server/node_modules/_sequelize@6.8.0@sequelize/lib/dialects/abstract/connection-manager.js:318:24)
+    at async /Users/tina/Codes/github/weekend-issues/server/node_modules/_sequelize@6.8.0@sequelize/lib/dialects/abstract/connection-manager.js:250:32
+    at async ConnectionManager.getConnection (/Users/tina/Codes/github/weekend-issues/server/node_modules/_sequelize@6.8.0@sequelize/lib/dialects/abstract/connection-manager.js:280:7)
+    at async /Users/tina/Codes/github/weekend-issues/server/node_modules/_sequelize@6.8.0@sequelize/lib/sequelize.js:613:26
+    at async Sequelize.authenticate (/Users/tina/Codes/github/weekend-issues/server/node_modules/_sequelize@6.8.0@sequelize/lib/sequelize.js:867:5)
+    at async authenticate (/Users/tina/Codes/github/weekend-issues/server/node_modules/_egg-sequelize@6.0.0@egg-sequelize/lib/loader.js:134:7)
+    at async authenticate (/Users/tina/Codes/github/weekend-issues/server/node_modules/_egg-sequelize@6.0.0@egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/tina/Codes/github/weekend-issues/server/node_modules/_egg-sequelize@6.0.0@egg-sequelize/lib/loader.js:142:7)
+name: "SequelizeConnectionRefusedError"
+parent: {"errno":-61,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+original: {"errno":-61,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}
+pid: 26648
+hostname: notes.local
+
+2021-11-07 15:08:41,953 ERROR 31389 nodejs.ClusterClientNoResponseError: client no response in 3228286ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/tina/Codes/github/weekend-issues/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 31389
+hostname: notes.local
+
+2021-11-07 16:14:02,318 ERROR 32490 [-/undefined/-/46ms GET /public/tmp/555fb726-0bd8-41ec-b5fd-5c2edd616a8f-1634972484509587.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 32490
+hostname: notes.local
+
+2021-11-07 16:37:47,111 ERROR 35583 [-/undefined/-/59ms GET /public/tmp/ee94e423-2010-4e7d-91d6-5be92b9defc3-1634972484509587.mp4] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 35583
+hostname: notes.local
+
+2021-11-07 16:37:55,043 ERROR 35583 [-/undefined/-/1859ms GET /public/tmp/b73f7d20-5776-479e-9ea1-d870d950a6c6-IMG_2794.jpeg] nodejs.EPIPEError: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16)
+errno: -32
+code: "EPIPE"
+syscall: "write"
+headerSent: true
+name: "EPIPEError"
+pid: 35583
+hostname: notes.local
+
+2021-11-07 18:30:37,392 ERROR 35573 nodejs.ClusterClientNoResponseError: client no response in 3929098ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/tina/Codes/github/weekend-issues/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 35573
+hostname: notes.local
+
+2021-11-07 18:42:43,234 ERROR 35573 nodejs.ClusterClientNoResponseError: client no response in 685691ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/tina/Codes/github/weekend-issues/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 35573
+hostname: notes.local
+

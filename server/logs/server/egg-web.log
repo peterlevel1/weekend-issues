@@ -1,0 +1,443 @@
+2021-11-07 11:37:02,115 INFO 27961 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 11:37:02,134 INFO 27961 [egg-multipart] stream mode enable
+2021-11-07 11:37:02,311 INFO 27961 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 11:37:02,313 INFO 27961 [egg-security] use csrf middleware
+2021-11-07 11:37:02,314 INFO 27961 [egg-security] use methodnoallow middleware
+2021-11-07 11:37:02,314 INFO 27961 [egg-security] use noopen middleware
+2021-11-07 11:37:02,315 INFO 27961 [egg-security] use nosniff middleware
+2021-11-07 11:37:02,315 INFO 27961 [egg-security] use xssProtection middleware
+2021-11-07 11:37:02,316 INFO 27961 [egg-security] use xframe middleware
+2021-11-07 11:37:02,316 INFO 27961 [egg-security] use dta middleware
+2021-11-07 11:37:02,316 INFO 27961 [egg-security] compose 7 middlewares into one security middleware
+2021-11-07 11:37:02,323 INFO 27961 [egg:core] dump config after load, 3ms
+2021-11-07 11:37:02,347 INFO 27961 [egg-watcher:application] watcher start success
+2021-11-07 11:37:02,352 INFO 27961 [egg:core] dump config after ready, 3ms
+2021-11-07 13:33:38,439 INFO 29437 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 13:33:38,467 INFO 29437 [egg-multipart] stream mode enable
+2021-11-07 13:33:38,769 INFO 29437 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 13:33:38,771 INFO 29437 [egg-security] use csrf middleware
+2021-11-07 13:33:38,772 INFO 29437 [egg-security] use methodnoallow middleware
+2021-11-07 13:33:38,773 INFO 29437 [egg-security] use noopen middleware
+2021-11-07 13:33:38,773 INFO 29437 [egg-security] use nosniff middleware
+2021-11-07 13:33:38,774 INFO 29437 [egg-security] use xssProtection middleware
+2021-11-07 13:33:38,774 INFO 29437 [egg-security] use xframe middleware
+2021-11-07 13:33:38,775 INFO 29437 [egg-security] use dta middleware
+2021-11-07 13:33:38,775 INFO 29437 [egg-security] compose 7 middlewares into one security middleware
+2021-11-07 13:33:38,783 INFO 29437 [egg:core] dump config after load, 4ms
+2021-11-07 13:33:38,806 INFO 29437 [egg-watcher:application] watcher start success
+2021-11-07 13:33:38,812 INFO 29437 [egg:core] dump config after ready, 4ms
+2021-11-07 13:34:48,757 INFO 29470 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 13:34:48,775 INFO 29470 [egg-multipart] stream mode enable
+2021-11-07 13:34:48,944 INFO 29470 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 13:34:48,946 INFO 29470 [egg-security] use csrf middleware
+2021-11-07 13:34:48,946 INFO 29470 [egg-security] use methodnoallow middleware
+2021-11-07 13:34:48,947 INFO 29470 [egg-security] use noopen middleware
+2021-11-07 13:34:48,947 INFO 29470 [egg-security] use nosniff middleware
+2021-11-07 13:34:48,947 INFO 29470 [egg-security] use xssProtection middleware
+2021-11-07 13:34:48,948 INFO 29470 [egg-security] use xframe middleware
+2021-11-07 13:34:48,948 INFO 29470 [egg-security] use dta middleware
+2021-11-07 13:34:48,948 INFO 29470 [egg-security] compose 7 middlewares into one security middleware
+2021-11-07 13:34:48,954 INFO 29470 [egg:core] dump config after load, 3ms
+2021-11-07 13:34:48,977 INFO 29470 [egg-watcher:application] watcher start success
+2021-11-07 13:34:48,984 INFO 29470 [egg:core] dump config after ready, 4ms
+2021-11-07 13:37:15,729 INFO 29579 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 13:37:15,755 INFO 29579 [egg-multipart] stream mode enable
+2021-11-07 13:37:16,080 INFO 29579 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 13:37:16,082 INFO 29579 [egg-security] use csrf middleware
+2021-11-07 13:37:16,083 INFO 29579 [egg-security] use methodnoallow middleware
+2021-11-07 13:37:16,083 INFO 29579 [egg-security] use noopen middleware
+2021-11-07 13:37:16,084 INFO 29579 [egg-security] use nosniff middleware
+2021-11-07 13:37:16,084 INFO 29579 [egg-security] use xssProtection middleware
+2021-11-07 13:37:16,085 INFO 29579 [egg-security] use xframe middleware
+2021-11-07 13:37:16,085 INFO 29579 [egg-security] use dta middleware
+2021-11-07 13:37:16,085 INFO 29579 [egg-security] compose 7 middlewares into one security middleware
+2021-11-07 13:37:16,093 INFO 29579 [egg:core] dump config after load, 3ms
+2021-11-07 13:37:16,115 INFO 29579 [egg-watcher:application] watcher start success
+2021-11-07 13:37:16,120 INFO 29579 [egg:core] dump config after ready, 3ms
+2021-11-07 13:37:22,912 INFO 29610 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 13:37:22,929 INFO 29610 [egg-multipart] stream mode enable
+2021-11-07 13:37:23,077 INFO 29610 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 13:37:23,079 INFO 29610 [egg-security] use csrf middleware
+2021-11-07 13:37:23,079 INFO 29610 [egg-security] use methodnoallow middleware
+2021-11-07 13:37:23,079 INFO 29610 [egg-security] use noopen middleware
+2021-11-07 13:37:23,080 INFO 29610 [egg-security] use nosniff middleware
+2021-11-07 13:37:23,080 INFO 29610 [egg-security] use xssProtection middleware
+2021-11-07 13:37:23,080 INFO 29610 [egg-security] use xframe middleware
+2021-11-07 13:37:23,080 INFO 29610 [egg-security] use dta middleware
+2021-11-07 13:37:23,080 INFO 29610 [egg-security] compose 7 middlewares into one security middleware
+2021-11-07 13:37:23,086 INFO 29610 [egg:core] dump config after load, 3ms
+2021-11-07 13:37:23,107 INFO 29610 [egg-watcher:application] watcher start success
+2021-11-07 13:37:23,112 INFO 29610 [egg:core] dump config after ready, 3ms
+2021-11-07 13:37:24,060 INFO 29617 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 13:37:24,077 INFO 29617 [egg-multipart] stream mode enable
+2021-11-07 13:37:24,228 INFO 29617 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 13:37:24,229 INFO 29617 [egg-security] use csrf middleware
+2021-11-07 13:37:24,230 INFO 29617 [egg-security] use methodnoallow middleware
+2021-11-07 13:37:24,230 INFO 29617 [egg-security] use noopen middleware
+2021-11-07 13:37:24,230 INFO 29617 [egg-security] use nosniff middleware
+2021-11-07 13:37:24,231 INFO 29617 [egg-security] use xssProtection middleware
+2021-11-07 13:37:24,231 INFO 29617 [egg-security] use xframe middleware
+2021-11-07 13:37:24,231 INFO 29617 [egg-security] use dta middleware
+2021-11-07 13:37:24,231 INFO 29617 [egg-security] compose 7 middlewares into one security middleware
+2021-11-07 13:37:24,237 INFO 29617 [egg:core] dump config after load, 3ms
+2021-11-07 13:37:24,256 INFO 29617 [egg-watcher:application] watcher start success
+2021-11-07 13:37:24,262 INFO 29617 [egg:core] dump config after ready, 4ms
+2021-11-07 13:37:29,902 INFO 29643 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 13:37:29,918 INFO 29643 [egg-multipart] stream mode enable
+2021-11-07 13:37:30,067 INFO 29643 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 13:37:30,069 INFO 29643 [egg-security] use csrf middleware
+2021-11-07 13:37:30,069 INFO 29643 [egg-security] use methodnoallow middleware
+2021-11-07 13:37:30,069 INFO 29643 [egg-security] use noopen middleware
+2021-11-07 13:37:30,070 INFO 29643 [egg-security] use nosniff middleware
+2021-11-07 13:37:30,070 INFO 29643 [egg-security] use xssProtection middleware
+2021-11-07 13:37:30,070 INFO 29643 [egg-security] use xframe middleware
+2021-11-07 13:37:30,071 INFO 29643 [egg-security] use dta middleware
+2021-11-07 13:37:30,071 INFO 29643 [egg-security] compose 7 middlewares into one security middleware
+2021-11-07 13:37:30,076 INFO 29643 [egg:core] dump config after load, 3ms
+2021-11-07 13:37:30,095 INFO 29643 [egg-watcher:application] watcher start success
+2021-11-07 13:37:30,101 INFO 29643 [egg:core] dump config after ready, 4ms
+2021-11-07 13:37:43,723 INFO 29680 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 13:37:43,741 INFO 29680 [egg-multipart] stream mode enable
+2021-11-07 13:37:43,892 INFO 29680 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 13:37:43,893 INFO 29680 [egg-security] use csrf middleware
+2021-11-07 13:37:43,893 INFO 29680 [egg-security] use methodnoallow middleware
+2021-11-07 13:37:43,894 INFO 29680 [egg-security] use noopen middleware
+2021-11-07 13:37:43,894 INFO 29680 [egg-security] use nosniff middleware
+2021-11-07 13:37:43,894 INFO 29680 [egg-security] use xssProtection middleware
+2021-11-07 13:37:43,894 INFO 29680 [egg-security] use xframe middleware
+2021-11-07 13:37:43,895 INFO 29680 [egg-security] use dta middleware
+2021-11-07 13:37:43,895 INFO 29680 [egg-security] compose 7 middlewares into one security middleware
+2021-11-07 13:37:43,900 INFO 29680 [egg:core] dump config after load, 3ms
+2021-11-07 13:37:43,923 INFO 29680 [egg-watcher:application] watcher start success
+2021-11-07 13:37:43,928 INFO 29680 [egg:core] dump config after ready, 4ms
+2021-11-07 13:48:33,791 INFO 30390 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 13:48:33,808 INFO 30390 [egg-multipart] stream mode enable
+2021-11-07 13:48:33,971 INFO 30390 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 13:48:33,972 INFO 30390 [egg-security] use methodnoallow middleware
+2021-11-07 13:48:33,973 INFO 30390 [egg-security] use noopen middleware
+2021-11-07 13:48:33,973 INFO 30390 [egg-security] use nosniff middleware
+2021-11-07 13:48:33,973 INFO 30390 [egg-security] use xssProtection middleware
+2021-11-07 13:48:33,974 INFO 30390 [egg-security] use xframe middleware
+2021-11-07 13:48:33,974 INFO 30390 [egg-security] use dta middleware
+2021-11-07 13:48:33,974 INFO 30390 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 13:48:33,980 INFO 30390 [egg:core] dump config after load, 3ms
+2021-11-07 13:48:34,002 INFO 30390 [egg-watcher:application] watcher start success
+2021-11-07 13:48:34,006 INFO 30390 [egg:core] dump config after ready, 3ms
+2021-11-07 13:49:12,563 INFO 30441 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 13:49:12,579 INFO 30441 [egg-multipart] stream mode enable
+2021-11-07 13:49:12,738 INFO 30441 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 13:49:12,739 INFO 30441 [egg-security] use methodnoallow middleware
+2021-11-07 13:49:12,739 INFO 30441 [egg-security] use noopen middleware
+2021-11-07 13:49:12,740 INFO 30441 [egg-security] use nosniff middleware
+2021-11-07 13:49:12,740 INFO 30441 [egg-security] use xssProtection middleware
+2021-11-07 13:49:12,740 INFO 30441 [egg-security] use xframe middleware
+2021-11-07 13:49:12,740 INFO 30441 [egg-security] use dta middleware
+2021-11-07 13:49:12,740 INFO 30441 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 13:49:12,746 INFO 30441 [egg:core] dump config after load, 2ms
+2021-11-07 13:49:12,769 INFO 30441 [egg-watcher:application] watcher start success
+2021-11-07 13:49:12,775 INFO 30441 [egg:core] dump config after ready, 4ms
+2021-11-07 14:04:31,799 INFO 30699 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 14:04:31,814 INFO 30699 [egg-multipart] stream mode enable
+2021-11-07 14:04:31,964 INFO 30699 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 14:04:31,965 INFO 30699 [egg-security] use methodnoallow middleware
+2021-11-07 14:04:31,966 INFO 30699 [egg-security] use noopen middleware
+2021-11-07 14:04:31,966 INFO 30699 [egg-security] use nosniff middleware
+2021-11-07 14:04:31,966 INFO 30699 [egg-security] use xssProtection middleware
+2021-11-07 14:04:31,966 INFO 30699 [egg-security] use xframe middleware
+2021-11-07 14:04:31,967 INFO 30699 [egg-security] use dta middleware
+2021-11-07 14:04:31,967 INFO 30699 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 14:04:31,972 INFO 30699 [egg:core] dump config after load, 3ms
+2021-11-07 14:04:31,994 INFO 30699 [egg-watcher:application] watcher start success
+2021-11-07 14:04:31,999 INFO 30699 [egg:core] dump config after ready, 3ms
+2021-11-07 14:07:44,729 INFO 30831 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 14:07:44,747 INFO 30831 [egg-multipart] stream mode enable
+2021-11-07 14:07:44,909 INFO 30831 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 14:07:44,911 INFO 30831 [egg-security] use methodnoallow middleware
+2021-11-07 14:07:44,911 INFO 30831 [egg-security] use noopen middleware
+2021-11-07 14:07:44,911 INFO 30831 [egg-security] use nosniff middleware
+2021-11-07 14:07:44,912 INFO 30831 [egg-security] use xssProtection middleware
+2021-11-07 14:07:44,912 INFO 30831 [egg-security] use xframe middleware
+2021-11-07 14:07:44,912 INFO 30831 [egg-security] use dta middleware
+2021-11-07 14:07:44,912 INFO 30831 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 14:07:44,918 INFO 30831 [egg:core] dump config after load, 3ms
+2021-11-07 14:07:44,940 INFO 30831 [egg-watcher:application] watcher start success
+2021-11-07 14:07:44,945 INFO 30831 [egg:core] dump config after ready, 3ms
+2021-11-07 14:08:27,747 INFO 30912 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 14:08:27,763 INFO 30912 [egg-multipart] stream mode enable
+2021-11-07 14:08:27,925 INFO 30912 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 14:08:27,927 INFO 30912 [egg-security] use methodnoallow middleware
+2021-11-07 14:08:27,927 INFO 30912 [egg-security] use noopen middleware
+2021-11-07 14:08:27,928 INFO 30912 [egg-security] use nosniff middleware
+2021-11-07 14:08:27,928 INFO 30912 [egg-security] use xssProtection middleware
+2021-11-07 14:08:27,928 INFO 30912 [egg-security] use xframe middleware
+2021-11-07 14:08:27,929 INFO 30912 [egg-security] use dta middleware
+2021-11-07 14:08:27,929 INFO 30912 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 14:08:27,936 INFO 30912 [egg:core] dump config after load, 4ms
+2021-11-07 14:08:27,958 INFO 30912 [egg-watcher:application] watcher start success
+2021-11-07 14:08:27,964 INFO 30912 [egg:core] dump config after ready, 4ms
+2021-11-07 14:08:29,000 INFO 30940 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 14:08:29,019 INFO 30940 [egg-multipart] stream mode enable
+2021-11-07 14:08:29,202 INFO 30940 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 14:08:29,203 INFO 30940 [egg-security] use methodnoallow middleware
+2021-11-07 14:08:29,204 INFO 30940 [egg-security] use noopen middleware
+2021-11-07 14:08:29,204 INFO 30940 [egg-security] use nosniff middleware
+2021-11-07 14:08:29,205 INFO 30940 [egg-security] use xssProtection middleware
+2021-11-07 14:08:29,205 INFO 30940 [egg-security] use xframe middleware
+2021-11-07 14:08:29,205 INFO 30940 [egg-security] use dta middleware
+2021-11-07 14:08:29,205 INFO 30940 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 14:08:29,212 INFO 30940 [egg:core] dump config after load, 3ms
+2021-11-07 14:08:29,237 INFO 30940 [egg-watcher:application] watcher start success
+2021-11-07 14:08:29,245 INFO 30940 [egg:core] dump config after ready, 5ms
+2021-11-07 14:09:23,920 INFO 31040 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 14:09:23,938 INFO 31040 [egg-multipart] stream mode enable
+2021-11-07 14:09:24,092 INFO 31040 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 14:09:24,093 INFO 31040 [egg-security] use methodnoallow middleware
+2021-11-07 14:09:24,093 INFO 31040 [egg-security] use noopen middleware
+2021-11-07 14:09:24,093 INFO 31040 [egg-security] use nosniff middleware
+2021-11-07 14:09:24,094 INFO 31040 [egg-security] use xssProtection middleware
+2021-11-07 14:09:24,094 INFO 31040 [egg-security] use xframe middleware
+2021-11-07 14:09:24,094 INFO 31040 [egg-security] use dta middleware
+2021-11-07 14:09:24,094 INFO 31040 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 14:09:24,100 INFO 31040 [egg:core] dump config after load, 3ms
+2021-11-07 14:09:24,121 INFO 31040 [egg-watcher:application] watcher start success
+2021-11-07 14:09:24,126 INFO 31040 [egg:core] dump config after ready, 3ms
+2021-11-07 14:11:31,626 INFO 31116 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 14:11:31,645 INFO 31116 [egg-multipart] stream mode enable
+2021-11-07 14:11:31,815 INFO 31116 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 14:11:31,817 INFO 31116 [egg-security] use methodnoallow middleware
+2021-11-07 14:11:31,817 INFO 31116 [egg-security] use noopen middleware
+2021-11-07 14:11:31,817 INFO 31116 [egg-security] use nosniff middleware
+2021-11-07 14:11:31,818 INFO 31116 [egg-security] use xssProtection middleware
+2021-11-07 14:11:31,818 INFO 31116 [egg-security] use xframe middleware
+2021-11-07 14:11:31,818 INFO 31116 [egg-security] use dta middleware
+2021-11-07 14:11:31,818 INFO 31116 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 14:11:31,825 INFO 31116 [egg:core] dump config after load, 3ms
+2021-11-07 14:11:31,849 INFO 31116 [egg-watcher:application] watcher start success
+2021-11-07 14:11:31,857 INFO 31116 [egg:core] dump config after ready, 5ms
+2021-11-07 14:11:45,533 INFO 31162 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 14:11:45,552 INFO 31162 [egg-multipart] stream mode enable
+2021-11-07 14:11:45,742 INFO 31162 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 14:11:45,743 INFO 31162 [egg-security] use methodnoallow middleware
+2021-11-07 14:11:45,743 INFO 31162 [egg-security] use noopen middleware
+2021-11-07 14:11:45,744 INFO 31162 [egg-security] use nosniff middleware
+2021-11-07 14:11:45,744 INFO 31162 [egg-security] use xssProtection middleware
+2021-11-07 14:11:45,744 INFO 31162 [egg-security] use xframe middleware
+2021-11-07 14:11:45,745 INFO 31162 [egg-security] use dta middleware
+2021-11-07 14:11:45,745 INFO 31162 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 14:11:45,751 INFO 31162 [egg:core] dump config after load, 3ms
+2021-11-07 14:11:45,774 INFO 31162 [egg-watcher:application] watcher start success
+2021-11-07 14:11:45,781 INFO 31162 [egg:core] dump config after ready, 4ms
+2021-11-07 14:11:54,009 INFO 31233 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 14:11:54,026 INFO 31233 [egg-multipart] stream mode enable
+2021-11-07 14:11:54,206 INFO 31233 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 14:11:54,208 INFO 31233 [egg-security] use methodnoallow middleware
+2021-11-07 14:11:54,208 INFO 31233 [egg-security] use noopen middleware
+2021-11-07 14:11:54,209 INFO 31233 [egg-security] use nosniff middleware
+2021-11-07 14:11:54,209 INFO 31233 [egg-security] use xssProtection middleware
+2021-11-07 14:11:54,209 INFO 31233 [egg-security] use xframe middleware
+2021-11-07 14:11:54,209 INFO 31233 [egg-security] use dta middleware
+2021-11-07 14:11:54,209 INFO 31233 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 14:11:54,216 INFO 31233 [egg:core] dump config after load, 4ms
+2021-11-07 14:11:54,237 INFO 31233 [egg-watcher:application] watcher start success
+2021-11-07 14:11:54,243 INFO 31233 [egg:core] dump config after ready, 4ms
+2021-11-07 14:11:56,538 INFO 31261 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 14:11:56,556 INFO 31261 [egg-multipart] stream mode enable
+2021-11-07 14:11:56,746 INFO 31261 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 14:11:56,748 INFO 31261 [egg-security] use methodnoallow middleware
+2021-11-07 14:11:56,749 INFO 31261 [egg-security] use noopen middleware
+2021-11-07 14:11:56,749 INFO 31261 [egg-security] use nosniff middleware
+2021-11-07 14:11:56,749 INFO 31261 [egg-security] use xssProtection middleware
+2021-11-07 14:11:56,750 INFO 31261 [egg-security] use xframe middleware
+2021-11-07 14:11:56,750 INFO 31261 [egg-security] use dta middleware
+2021-11-07 14:11:56,750 INFO 31261 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 14:11:56,758 INFO 31261 [egg:core] dump config after load, 4ms
+2021-11-07 14:11:56,782 INFO 31261 [egg-watcher:application] watcher start success
+2021-11-07 14:11:56,789 INFO 31261 [egg:core] dump config after ready, 4ms
+2021-11-07 14:12:33,072 INFO 31391 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 14:12:33,090 INFO 31391 [egg-multipart] stream mode enable
+2021-11-07 14:12:33,241 INFO 31391 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 14:12:33,242 INFO 31391 [egg-security] use methodnoallow middleware
+2021-11-07 14:12:33,242 INFO 31391 [egg-security] use noopen middleware
+2021-11-07 14:12:33,243 INFO 31391 [egg-security] use nosniff middleware
+2021-11-07 14:12:33,243 INFO 31391 [egg-security] use xssProtection middleware
+2021-11-07 14:12:33,243 INFO 31391 [egg-security] use xframe middleware
+2021-11-07 14:12:33,243 INFO 31391 [egg-security] use dta middleware
+2021-11-07 14:12:33,243 INFO 31391 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 14:12:33,249 INFO 31391 [egg:core] dump config after load, 3ms
+2021-11-07 14:12:33,272 INFO 31391 [egg-watcher:application] watcher start success
+2021-11-07 14:12:33,276 INFO 31391 [egg:core] dump config after ready, 3ms
+2021-11-07 15:08:41,952 WARN 31391 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-11-07 15:08:41,953 WARN 31391 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-11-07 15:12:25,614 INFO 31718 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 15:12:25,636 INFO 31718 [egg-multipart] stream mode enable
+2021-11-07 15:12:25,951 INFO 31718 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 15:12:25,953 INFO 31718 [egg-security] use methodnoallow middleware
+2021-11-07 15:12:25,953 INFO 31718 [egg-security] use noopen middleware
+2021-11-07 15:12:25,954 INFO 31718 [egg-security] use nosniff middleware
+2021-11-07 15:12:25,955 INFO 31718 [egg-security] use xssProtection middleware
+2021-11-07 15:12:25,955 INFO 31718 [egg-security] use xframe middleware
+2021-11-07 15:12:25,956 INFO 31718 [egg-security] use dta middleware
+2021-11-07 15:12:25,956 INFO 31718 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 15:12:25,965 INFO 31718 [egg:core] dump config after load, 4ms
+2021-11-07 15:12:25,989 INFO 31718 [egg-watcher:application] watcher start success
+2021-11-07 15:12:25,995 INFO 31718 [egg:core] dump config after ready, 4ms
+2021-11-07 15:12:26,541 INFO 31726 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 15:12:26,558 INFO 31726 [egg-multipart] stream mode enable
+2021-11-07 15:12:26,715 INFO 31726 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 15:12:26,716 INFO 31726 [egg-security] use methodnoallow middleware
+2021-11-07 15:12:26,716 INFO 31726 [egg-security] use noopen middleware
+2021-11-07 15:12:26,717 INFO 31726 [egg-security] use nosniff middleware
+2021-11-07 15:12:26,717 INFO 31726 [egg-security] use xssProtection middleware
+2021-11-07 15:12:26,717 INFO 31726 [egg-security] use xframe middleware
+2021-11-07 15:12:26,717 INFO 31726 [egg-security] use dta middleware
+2021-11-07 15:12:26,717 INFO 31726 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 15:12:26,723 INFO 31726 [egg:core] dump config after load, 3ms
+2021-11-07 15:12:26,748 INFO 31726 [egg-watcher:application] watcher start success
+2021-11-07 15:12:26,756 INFO 31726 [egg:core] dump config after ready, 5ms
+2021-11-07 15:23:29,849 INFO 32033 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 15:23:29,866 INFO 32033 [egg-multipart] stream mode enable
+2021-11-07 15:23:30,037 INFO 32033 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 15:23:30,039 INFO 32033 [egg-security] use methodnoallow middleware
+2021-11-07 15:23:30,039 INFO 32033 [egg-security] use noopen middleware
+2021-11-07 15:23:30,039 INFO 32033 [egg-security] use nosniff middleware
+2021-11-07 15:23:30,040 INFO 32033 [egg-security] use xssProtection middleware
+2021-11-07 15:23:30,040 INFO 32033 [egg-security] use xframe middleware
+2021-11-07 15:23:30,040 INFO 32033 [egg-security] use dta middleware
+2021-11-07 15:23:30,040 INFO 32033 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 15:23:30,046 INFO 32033 [egg:core] dump config after load, 3ms
+2021-11-07 15:23:30,068 INFO 32033 [egg-watcher:application] watcher start success
+2021-11-07 15:23:30,073 INFO 32033 [egg:core] dump config after ready, 3ms
+2021-11-07 15:23:56,727 INFO 32075 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 15:23:56,744 INFO 32075 [egg-multipart] stream mode enable
+2021-11-07 15:23:56,913 INFO 32075 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 15:23:56,914 INFO 32075 [egg-security] use methodnoallow middleware
+2021-11-07 15:23:56,915 INFO 32075 [egg-security] use noopen middleware
+2021-11-07 15:23:56,915 INFO 32075 [egg-security] use nosniff middleware
+2021-11-07 15:23:56,915 INFO 32075 [egg-security] use xssProtection middleware
+2021-11-07 15:23:56,916 INFO 32075 [egg-security] use xframe middleware
+2021-11-07 15:23:56,916 INFO 32075 [egg-security] use dta middleware
+2021-11-07 15:23:56,916 INFO 32075 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 15:23:56,922 INFO 32075 [egg:core] dump config after load, 3ms
+2021-11-07 15:23:56,945 INFO 32075 [egg-watcher:application] watcher start success
+2021-11-07 15:23:56,951 INFO 32075 [egg:core] dump config after ready, 4ms
+2021-11-07 15:25:29,731 INFO 32183 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 15:25:29,748 INFO 32183 [egg-multipart] stream mode enable
+2021-11-07 15:25:29,916 INFO 32183 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 15:25:29,918 INFO 32183 [egg-security] use methodnoallow middleware
+2021-11-07 15:25:29,918 INFO 32183 [egg-security] use noopen middleware
+2021-11-07 15:25:29,918 INFO 32183 [egg-security] use nosniff middleware
+2021-11-07 15:25:29,919 INFO 32183 [egg-security] use xssProtection middleware
+2021-11-07 15:25:29,919 INFO 32183 [egg-security] use xframe middleware
+2021-11-07 15:25:29,919 INFO 32183 [egg-security] use dta middleware
+2021-11-07 15:25:29,919 INFO 32183 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 15:25:29,926 INFO 32183 [egg:core] dump config after load, 3ms
+2021-11-07 15:25:29,949 INFO 32183 [egg-watcher:application] watcher start success
+2021-11-07 15:25:29,956 INFO 32183 [egg:core] dump config after ready, 4ms
+2021-11-07 15:25:30,996 INFO 32206 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 15:25:31,011 INFO 32206 [egg-multipart] stream mode enable
+2021-11-07 15:25:31,158 INFO 32206 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 15:25:31,159 INFO 32206 [egg-security] use methodnoallow middleware
+2021-11-07 15:25:31,159 INFO 32206 [egg-security] use noopen middleware
+2021-11-07 15:25:31,160 INFO 32206 [egg-security] use nosniff middleware
+2021-11-07 15:25:31,160 INFO 32206 [egg-security] use xssProtection middleware
+2021-11-07 15:25:31,160 INFO 32206 [egg-security] use xframe middleware
+2021-11-07 15:25:31,160 INFO 32206 [egg-security] use dta middleware
+2021-11-07 15:25:31,161 INFO 32206 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 15:25:31,166 INFO 32206 [egg:core] dump config after load, 3ms
+2021-11-07 15:25:31,191 INFO 32206 [egg-watcher:application] watcher start success
+2021-11-07 15:25:31,198 INFO 32206 [egg:core] dump config after ready, 5ms
+2021-11-07 15:27:14,884 INFO 32404 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 15:27:14,902 INFO 32404 [egg-multipart] stream mode enable
+2021-11-07 15:27:15,065 INFO 32404 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 15:27:15,066 INFO 32404 [egg-security] use methodnoallow middleware
+2021-11-07 15:27:15,067 INFO 32404 [egg-security] use noopen middleware
+2021-11-07 15:27:15,067 INFO 32404 [egg-security] use nosniff middleware
+2021-11-07 15:27:15,067 INFO 32404 [egg-security] use xssProtection middleware
+2021-11-07 15:27:15,068 INFO 32404 [egg-security] use xframe middleware
+2021-11-07 15:27:15,068 INFO 32404 [egg-security] use dta middleware
+2021-11-07 15:27:15,068 INFO 32404 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 15:27:15,074 INFO 32404 [egg:core] dump config after load, 3ms
+2021-11-07 15:27:15,102 INFO 32404 [egg-watcher:application] watcher start success
+2021-11-07 15:27:15,109 INFO 32404 [egg:core] dump config after ready, 4ms
+2021-11-07 15:27:34,835 INFO 32483 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 15:27:34,851 INFO 32483 [egg-multipart] stream mode enable
+2021-11-07 15:27:35,006 INFO 32483 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 15:27:35,007 INFO 32483 [egg-security] use methodnoallow middleware
+2021-11-07 15:27:35,007 INFO 32483 [egg-security] use noopen middleware
+2021-11-07 15:27:35,008 INFO 32483 [egg-security] use nosniff middleware
+2021-11-07 15:27:35,008 INFO 32483 [egg-security] use xssProtection middleware
+2021-11-07 15:27:35,008 INFO 32483 [egg-security] use xframe middleware
+2021-11-07 15:27:35,008 INFO 32483 [egg-security] use dta middleware
+2021-11-07 15:27:35,008 INFO 32483 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 15:27:35,014 INFO 32483 [egg:core] dump config after load, 3ms
+2021-11-07 15:27:35,034 INFO 32483 [egg-watcher:application] watcher start success
+2021-11-07 15:27:35,040 INFO 32483 [egg:core] dump config after ready, 3ms
+2021-11-07 15:27:36,032 INFO 32490 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 15:27:36,048 INFO 32490 [egg-multipart] stream mode enable
+2021-11-07 15:27:36,210 INFO 32490 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 15:27:36,211 INFO 32490 [egg-security] use methodnoallow middleware
+2021-11-07 15:27:36,212 INFO 32490 [egg-security] use noopen middleware
+2021-11-07 15:27:36,212 INFO 32490 [egg-security] use nosniff middleware
+2021-11-07 15:27:36,212 INFO 32490 [egg-security] use xssProtection middleware
+2021-11-07 15:27:36,213 INFO 32490 [egg-security] use xframe middleware
+2021-11-07 15:27:36,213 INFO 32490 [egg-security] use dta middleware
+2021-11-07 15:27:36,213 INFO 32490 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 15:27:36,219 INFO 32490 [egg:core] dump config after load, 3ms
+2021-11-07 15:27:36,238 INFO 32490 [egg-watcher:application] watcher start success
+2021-11-07 15:27:36,244 INFO 32490 [egg:core] dump config after ready, 4ms
+2021-11-07 16:23:12,417 INFO 34142 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 16:23:12,434 INFO 34142 [egg-multipart] stream mode enable
+2021-11-07 16:23:12,622 INFO 34142 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 16:23:12,624 INFO 34142 [egg-security] use methodnoallow middleware
+2021-11-07 16:23:12,624 INFO 34142 [egg-security] use noopen middleware
+2021-11-07 16:23:12,625 INFO 34142 [egg-security] use nosniff middleware
+2021-11-07 16:23:12,625 INFO 34142 [egg-security] use xssProtection middleware
+2021-11-07 16:23:12,625 INFO 34142 [egg-security] use xframe middleware
+2021-11-07 16:23:12,626 INFO 34142 [egg-security] use dta middleware
+2021-11-07 16:23:12,626 INFO 34142 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 16:23:12,633 INFO 34142 [egg:core] dump config after load, 4ms
+2021-11-07 16:23:12,654 INFO 34142 [egg-watcher:application] watcher start success
+2021-11-07 16:23:12,660 INFO 34142 [egg:core] dump config after ready, 4ms
+2021-11-07 16:24:13,184 INFO 34168 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 16:24:13,200 INFO 34168 [egg-multipart] stream mode enable
+2021-11-07 16:24:13,376 INFO 34168 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 16:24:13,378 INFO 34168 [egg-security] use methodnoallow middleware
+2021-11-07 16:24:13,378 INFO 34168 [egg-security] use noopen middleware
+2021-11-07 16:24:13,379 INFO 34168 [egg-security] use nosniff middleware
+2021-11-07 16:24:13,379 INFO 34168 [egg-security] use xssProtection middleware
+2021-11-07 16:24:13,379 INFO 34168 [egg-security] use xframe middleware
+2021-11-07 16:24:13,380 INFO 34168 [egg-security] use dta middleware
+2021-11-07 16:24:13,380 INFO 34168 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 16:24:13,388 INFO 34168 [egg:core] dump config after load, 3ms
+2021-11-07 16:24:13,411 INFO 34168 [egg-watcher:application] watcher start success
+2021-11-07 16:24:13,417 INFO 34168 [egg:core] dump config after ready, 4ms
+2021-11-07 16:36:13,141 INFO 35583 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 16:36:13,160 INFO 35583 [egg-multipart] stream mode enable
+2021-11-07 16:36:13,356 INFO 35583 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 16:36:13,357 INFO 35583 [egg-security] use methodnoallow middleware
+2021-11-07 16:36:13,358 INFO 35583 [egg-security] use noopen middleware
+2021-11-07 16:36:13,358 INFO 35583 [egg-security] use nosniff middleware
+2021-11-07 16:36:13,359 INFO 35583 [egg-security] use xssProtection middleware
+2021-11-07 16:36:13,359 INFO 35583 [egg-security] use xframe middleware
+2021-11-07 16:36:13,359 INFO 35583 [egg-security] use dta middleware
+2021-11-07 16:36:13,359 INFO 35583 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 16:36:13,368 INFO 35583 [egg:core] dump config after load, 4ms
+2021-11-07 16:36:13,396 INFO 35583 [egg-watcher:application] watcher start success
+2021-11-07 16:36:13,403 INFO 35583 [egg:core] dump config after ready, 5ms
+2021-11-07 16:41:47,402 INFO 35923 [egg:logger] init all loggers with options: {"dir":"/Users/tina/Codes/github/weekend-issues/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-11-07 16:41:47,422 INFO 35923 [egg-multipart] stream mode enable
+2021-11-07 16:41:47,618 INFO 35923 [egg-static] starting static serve /public/ -> /Users/tina/Codes/github/weekend-issues/server/app/public
+2021-11-07 16:41:47,620 INFO 35923 [egg-security] use methodnoallow middleware
+2021-11-07 16:41:47,620 INFO 35923 [egg-security] use noopen middleware
+2021-11-07 16:41:47,621 INFO 35923 [egg-security] use nosniff middleware
+2021-11-07 16:41:47,621 INFO 35923 [egg-security] use xssProtection middleware
+2021-11-07 16:41:47,621 INFO 35923 [egg-security] use xframe middleware
+2021-11-07 16:41:47,622 INFO 35923 [egg-security] use dta middleware
+2021-11-07 16:41:47,622 INFO 35923 [egg-security] compose 6 middlewares into one security middleware
+2021-11-07 16:41:47,629 INFO 35923 [egg:core] dump config after load, 3ms
+2021-11-07 16:41:47,653 INFO 35923 [egg-watcher:application] watcher start success
+2021-11-07 16:41:47,659 INFO 35923 [egg:core] dump config after ready, 4ms
+2021-11-07 18:30:37,392 WARN 35923 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-11-07 18:30:37,394 WARN 35923 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-11-07 18:42:43,234 WARN 35923 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-11-07 18:42:43,234 WARN 35923 [ClusterClient:Watcher] follower closed, and try to init it again

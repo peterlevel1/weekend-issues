@@ -9,3 +9,4 @@ package-lock.json
 
 # misc
 .DS_Store
+server/app/public/tmp
