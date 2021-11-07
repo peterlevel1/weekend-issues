@@ -23,8 +23,19 @@ module.exports = appInfo => {
     // myAppName: 'egg',
     security: {
       csrf: {
+        enable: false,
+        ignoreJSON: true,
         ignore: () => true,
       },
+      // domainWhiteList: ['http://172.20.10.3'],
+      domainWhiteList: ['*'],
+    },
+
+    cors: {
+      credentials: true,
+      allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH',
+      // origin: 'http://172.20.10.3',
+      origin: '*',
     },
 
     crossOrigin: {
@@ -32,10 +43,6 @@ module.exports = appInfo => {
         '172.20.10.3'
       ],
     },
-
-    // multipart: {
-    //   mode: 'file'
-    // }
   };
 
   return {
