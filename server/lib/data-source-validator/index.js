@@ -134,6 +134,7 @@ class RuleValidator {
     this.validator = validator;
     this.args = this.getArgs();
     this.msg = ruleValue.msg || '';
+    this.validateFn = this.getValidateFn();
   }
 
   getArgs() {
@@ -150,13 +151,9 @@ class RuleValidator {
     return [...args];
   }
 
-  /**
-   * @param {String} value the value to be tested
-   */
-  async validate(value) {
+  getValidateFn() {
     const defaultValidatorFn = this.validator[this.ruleName];
     let fn = defaultValidatorFn;
-    let ret;
 
     if (!fn) {
       if (typeof this.ruleValue !== 'function') {
@@ -167,6 +164,16 @@ class RuleValidator {
     } else {
       fn = fn.bind(this.validator);
     }
+
+    return fn;
+  }
+
+  /**
+   * @param {String} value the value to be tested
+   */
+  async validate(value) {
+    const fn = this.validateFn;
+    let ret;
 
     if (fn.constructor.name === 'AsyncFunction') {
       ret = await fn(value, ...this.args);
