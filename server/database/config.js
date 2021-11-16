@@ -1,17 +1,17 @@
 const path = require('path');
-const config = require('../config/secret').db.sqlite;
+const options = require('../config/secret').sequelizeCli.options;
 
 module.exports = {
   development: {
-    ...config,
+    ...options,
     database: 'wi_dev',
   },
   test: {
-    ...config,
+    ...options,
     database: 'wi_test',
   },
   production: {
-    ...config,
+    ...options,
     database: 'wi_prod',
   }
 };

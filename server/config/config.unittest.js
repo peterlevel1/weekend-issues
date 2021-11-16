@@ -1,4 +1,9 @@
+const configSequelize = require('./secret').db.sqlite;
 
 module.exports = (appInfo) => {
-  return {};
+  return {
+    sequelize: {
+      ...configSequelize,
+    }
+  };
 }

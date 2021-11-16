@@ -2,6 +2,8 @@
 
 'use strict';
 
+const key = require('./secret').key;
+
 /**
  * @param {Egg.EggAppInfo} appInfo app info
  */
@@ -13,7 +15,7 @@ module.exports = appInfo => {
   const config = exports = {};
 
   // use for cookie sign key, should change to your own and keep security
-  config.keys = appInfo.name + '_1634957884622_4622';
+  config.keys = key;
 
   // add your middleware config here
   config.middleware = [ 'crossOrigin' ];
