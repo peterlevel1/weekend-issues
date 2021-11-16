@@ -4,14 +4,14 @@ const options = require('../config/secret').sequelizeCli.options;
 module.exports = {
   development: {
     ...options,
-    database: 'wi_dev',
+    storage: path.join(__dirname, './sqlite.db'),
   },
   test: {
     ...options,
-    database: 'wi_test',
+    storage: path.join(__dirname, './sqlite_test.db'),
   },
   production: {
     ...options,
-    database: 'wi_prod',
+    storage: path.join(__dirname, './sqlite_prod.db'),
   }
 };

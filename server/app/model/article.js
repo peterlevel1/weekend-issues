@@ -5,17 +5,27 @@ const Sequelize = require('sequelize');
 const { STRING, TEXT } = Sequelize;
 
 module.exports = (app) => {
-  const Article = app.model.define('article', module.exports.getAttributes());
+  const Article = app.model.define(
+    'article', 
+    getAttributes(), 
+    getOptions()
+  );
 
   return Article;
 }
 
-module.exports.getAttributes = () => ({
+const getAttributes = () => ({
   title: {
     type: STRING,
-    unique: true,
   },
   content: {
     type: TEXT
   }
 });
+
+const getOptions = () => ({
+  paranoid: true,
+});
+
+module.exports.getAttributes = getAttributes;
+module.exports.getOptions = getOptions;
