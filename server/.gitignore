@@ -12,5 +12,5 @@ run/
 *.un~
 typings/
 .nyc_output/
-/app/public/tmp
 config/secret.js
+/app/public/tmp

@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const os = require('os');
 const uuidv4 = require('uuid').v4;
 
 const DIR_TMP = path.join(__dirname, '../public/tmp');
@@ -15,8 +14,8 @@ exports.main = async (ctx) => {
 
   ctx.body = {
     success: true,
-    data: {
-      pathname: `/public/tmp/${name}`,
-    },
+    result: [
+      `http://172.20.10.2:7001/public/tmp/${name}`
+    ]
   }
 };

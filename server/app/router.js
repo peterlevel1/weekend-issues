@@ -8,4 +8,5 @@ module.exports = app => {
   router.get('/', controller.home.index);
 
   router.post('/api/upload', controller.upload.main);
+  router.post('/api/form/business-check.json', controller.form.businessCheck);
 };
