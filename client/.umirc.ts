@@ -5,12 +5,18 @@ export default defineConfig({
     type: 'none',
   },
   routes: [
-    { path: '/', component: '@/pages/index' },
-    { path: '/2021-10-17', component: '@/pages/2021-10-17' },
-    { path: '/2021-10-23', component: '@/pages/2021-10-23' },
-    { path: '/2021-10-26', component: '@/pages/2021-10-26' },
-    { path: '/2021-11-07', component: '@/pages/2021-11-07' },
-
+    {
+      path: '/',
+      component: '@/pages/index',
+      routes: [
+        { path: '/2021-10-17', component: '@/pages/2021-10-17' },
+        { path: '/2021-10-23', component: '@/pages/2021-10-23' },
+        { path: '/2021-10-26', component: '@/pages/2021-10-26' },
+        { path: '/2021-11-07', component: '@/pages/2021-11-07' },
+        { path: '/2021-11-28', component: '@/pages/2021-11-28' },
+        { path: '/2021-11-28-0/:id', component: '@/pages/2021-11-28-0' },
+      ]
+    },
   ],
   fastRefresh: {},
 });
