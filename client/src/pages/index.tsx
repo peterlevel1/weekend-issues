@@ -13,34 +13,6 @@ export interface CardItemProps {
 
 export const ContextCardList = createContext<CardItemProps[] | []>([]);
 
-const CARD_LIST_PROPS: CardItemProps[] = [
-  {
-    title: ' 周一',
-    id: '111',
-    desc: '周一周一周一'
-  },
-  {
-    title: ' 周二',
-    id: '222',
-    desc: '周二周二周二'
-  },
-  {
-    title: ' 周三',
-    id: '333',
-    desc: '周三周三周三'
-  },
-  {
-    title: ' 周四',
-    id: '444',
-    desc: '周四周四周四'
-  },
-  {
-    title: ' 周五',
-    id: '555',
-    desc: '周五周五周五'
-  },
-];
-
 export default function Layout(props: LayoutProps) {
   const { children } = props;
   const [ cardList, setCardList ] = useState([]);
